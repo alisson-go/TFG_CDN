@@ -1,0 +1,57 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #070706;
+}
+
+header {
+    background-color: #b30000;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.video-container {
+    background: rgb(219, 81, 81);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #b30000;
+    color: white;
+    margin-top: 2rem;
+}
